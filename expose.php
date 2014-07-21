@@ -16,10 +16,10 @@ $status_file = "/usr/nagios/var/status.dat";
 $nagios_interval = 60;
 
 // Depending on how large your status.dat is, you may need to increase this. 
-ini_set('memory_limit', '256M');
+ini_set('memory_limit', '512M');
 
 // Reasonable level of PHP error reporting. 
-error_reporting(!E_NOTICE);
+error_reporting(E_ALL & ~E_NOTICE);
 
 // End Config
 
