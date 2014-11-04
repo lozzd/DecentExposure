@@ -8,7 +8,7 @@ The idea of knowing your sensitivity to alerts for supervisory monitoring (e.g. 
 
 ## Features
 
-* The tool is very simple: Give it the path to your Nagios installation's service.dat and you can ask it your maximum exposure time for either a given hostname/service, or all of your services. 
+* The tool is very simple: Give it the path to your Nagios installation's status.dat and you can ask it your maximum exposure time for either a given hostname/service, or all of your services. 
 * If you want, you can pass the '-d' flag to show how the exposure was calculated, allowing you to fine tune your exposure. 
 
 ## Examples
